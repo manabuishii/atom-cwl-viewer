@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    ".atom-cwl-viewer": [
+      { "label": "Save As\u2026", "command": "core:save-as" },
+      { "label": "Copy", "command": "core:copy" }
+    ],
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-cwl-viewer",
+        "command": "atom-cwl-viewer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "CWL Viewer",
+          "submenu": [
+            {
+              "label": "Toggle View",
+              "command": "atom-cwl-viewer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

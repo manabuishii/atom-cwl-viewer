@@ -1,0 +1,27 @@
+{
+  "cwltoolExecutable": {
+    "type": "string",
+    "default": ""
+  },
+  "liveUpdate": {
+    "type": "boolean",
+    "default": true
+  },
+  "openInSplitPane": {
+    "type": "boolean",
+    "default": true
+  },
+  "graphvizDotExecutable": {
+    "type": "string",
+    "default": ""
+  },
+  "grammars": {
+    "type": "array",
+    "default": [
+      "language-cwl",
+      "source.cwl",
+      "text.plain",
+      "text.plain.null-grammar"
+    ]
+  }
+}
